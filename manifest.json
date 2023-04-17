@@ -6,7 +6,7 @@
         "default_popup": "indec.html",
         "default_icon": "icon.png"
     },
-    "permission":[
+    "permissions":[
         "tabs"
     ]
 }
