@@ -10,7 +10,7 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
 if(leadsFromLocalStorage){
     myLeads = leadsFromLocalStorage
-    renderLeads(myLeads)
+    render(myLeads)
 }
 
 saveTab.addEventListener("click", function(){
